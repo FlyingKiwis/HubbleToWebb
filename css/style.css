@@ -62,8 +62,8 @@ header h1 {
 
 .cd-image-container {
   position: relative;
-  width: 80%;
-  margin: 0em auto;
+  width: 75%;
+  margin: 5px auto;
 }
 .cd-image-container img {
   display: block;
