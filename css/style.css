@@ -13,7 +13,11 @@ body {
   font-size: 100%;
   font-family: "Open Sans", sans-serif;
   color: #445b7c;
-  background-color: #445b7c;
+  background-color: #161616;
+
+  max-width: 90vw; 
+  margin: 0 auto !important; 
+  float: none !important;
 }
 
 a {
@@ -35,6 +39,7 @@ p {
 Main components 
 
 -------------------------------- */
+
 header {
   position: relative;
   height: 160px;
@@ -60,14 +65,25 @@ header h1 {
   }
 }
 
+.images-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin: 0 0 5vh 0;
+}
+
 .cd-image-container {
   position: relative;
-  width: 75%;
-  margin: 5px auto;
+  margin: 5vh 0 0 0;
 }
 .cd-image-container img {
   display: block;
+  max-height: 90vh;
 }
+
 
 .cd-image-label {
   position: absolute;
